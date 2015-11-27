@@ -1,0 +1,24 @@
+Author = "HaaTa (Jacob Alexander) 2015";
+Base = "Blank";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+KLL = "0.3c";
+Layout = "Default";
+Name = "Freik";
+Version = "0.1";
+
+U"EQUALS" : flashMode();
+U"FUNCTION2" : ledControl( 5, 0, 0 );
+U"FUNCTION5" : ledControl( 4, 15, 0 );
+U"FUNCTION4" : ledControl( 3, 15, 0 );
+U"MINUS" : flashMode();
+U"I" : ledControl( 4, 15, 0 );
+U"J" : ledControl( 3, 15, 0 );
+U"K" : ledControl( 3, 15, 0 );
+U"L" : ledControl( 4, 15, 0 );
+U"FUNCTION7" : ledControl( 5, 0, 0 );
+U"LEFT" : ledControl( 3, 15, 0 );
+U"DOWN" : ledControl( 4, 15, 0 );
+U"UP" : ledControl( 3, 15, 0 );
+U"RIGHT" : ledControl( 4, 15, 0 );
+

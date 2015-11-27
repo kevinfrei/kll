@@ -1,0 +1,14 @@
+Author = "HaaTa (Jacob Alexander) 2015";
+Base = "Blank";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+KLL = "0.3c";
+Layout = "Default";
+Name = "Freik";
+Version = "0.1";
+
+U"TAB" : U"LCTRL";
+U"FUNCTION3" : U"LALT";
+U"BACKTICK" : U"LGUI";
+U"RGUI" : U"RGUI";
+
