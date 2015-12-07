@@ -1,0 +1,18 @@
+Author = "Kevin Frei";
+Base = "Blank";
+Date = "2015-11-29";
+Generator = "Manual";
+KLL = "0.3d";
+Layout = "Default";
+Name = "Game-6";
+Version = "0.1";
+
+# This should be layer 6
+
+U"Lock3" : layerLock( 6 ) + LCDLayerDisplay();
+U"App" : U",";
+U"," : U"Up";
+U"Up" : U"Down";
+U"Down" : U"Right";
+U"Right" : U"RAlt";
+U"Lock7" : U"RCtrl";

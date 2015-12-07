@@ -1,0 +1,19 @@
+Author = "Kevin Frei";
+Base = "Blank";
+Date = "2015-11-29";
+Generator = "Manual";
+KLL = "0.3c";
+Layout = "Default";
+Name = "Mac-2";
+Version = "0.1";
+
+U"Lock4" : U"Left";
+U"Lock5" : U"Right";
+U"Lock7" : U"RAlt";
+U"RAlt" : CONS"ScanNextTrack";
+U"App" : CONS"PausePlay";
+U"CapsLock" : U"RGui";
+U"Lock1" : layerLock( 2 ) + layerLock( 3 ) + LCDLayerDisplay();
+U"Lock3" : layerLock( 4 ) + LCDLayerDisplay( );
+U"LGui" : U"LAlt";
+U"LAlt" : U"LGui";

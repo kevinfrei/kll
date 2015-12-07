@@ -1,0 +1,10 @@
+Author = "Kevin Frei";
+Base = "Blank";
+Date = "2015-09-12";
+Generator = "KIICONF 0.2";
+KLL = "0.3c";
+Layout = "Default";
+Name = "Kustom-0-Base";
+Version = "0.1";
+
+U"Lock6" : CONS"Mute";

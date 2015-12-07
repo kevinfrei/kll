@@ -1,0 +1,19 @@
+Author = "Kevin Frei";
+Base = "Blank";
+Date = "2015-11-29";
+Generator = "Manual";
+KLL = "0.3c";
+Layout = "Default";
+Name = "Win-3";
+Version = "0.1";
+
+#This should be layer 3
+
+U"Capslock" : U"RCtrl"; # In the future, this is a layer shift
+U"Lock4" : U"Left";
+U"Lock5" : U"Right";
+
+U"RAlt" : U"PrintScreen";
+U"Lock3" : layerLock( 4 ) + LCDLayerDisplay();
+U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();
+U"Lock7" : U"RGui";
