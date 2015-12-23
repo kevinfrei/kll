@@ -17,4 +17,3 @@ U"RAlt" : U"PrintScreen";
 U"Lock3" : layerLock( 4 ) + LCDLayerDisplay();
 U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();
 U"Lock7" : U"RGui";
-
