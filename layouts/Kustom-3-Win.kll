@@ -9,10 +9,15 @@ Version = "0.1";
 
 #This should be layer 3
 U"Lock2" : U"App";
-U"CapsLock" : U"RCtrl"; # In the future, this is a maybe a layer shift?
 U"RAlt" : U"PrintScreen";
 U"Lock3" : layerLock( 4 ) + LCDLayerDisplay();
 U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();
 
 U"Lock4" : CONS"VolumeDown";
 U"Lock5" : CONS"VolumeUp";
+
+# Enable my goofy remapping stuff
+U"CapsLock" : U"Ctrl";
+#U"CapsLock" : layerShift( 8 ) + LCDLayerDisplay( );
+# Enable my much goofier emacs-ish remapping stuff
+#U"LCtrl" : layerShift( 9 ) + LCDLayerDisplay( );

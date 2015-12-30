@@ -1012,12 +1012,12 @@ kll_hid_lookup_dictionary['USBCode'] = dict([
 
 	( 'LCTRL', ('USB', 0xE0) ), ( 'LEFT CTRL', ('USB', 0xE0) ), ( 'CTRL', ('USB', 0xE0) ), ( 'CONTROL', ('USB', 0xE0) ), ( 'LEFT CONTROL', ('USB', 0xE0) ),
 	( 'LSHIFT', ('USB', 0xE1) ), ( 'LEFT SHIFT', ('USB', 0xE1) ), ( 'SHIFT', ('USB', 0xE1) ),
-	( 'LALT', ('USB', 0xE2) ), ( 'LEFT ALT', ('USB', 0xE2) ), ( 'ALT', ('USB', 0xE2) ), ( 'ALTERNATE', ('USB', 0xE2) ), ( 'LEFT ALTERNATE', ('USB', 0xE2) ),
-	( 'LGUI', ('USB', 0xE3) ), ( 'LEFT GUI', ('USB', 0xE3) ), ( 'GUI', ('USB', 0xE3) ), ( 'SUPER', ('USB', 0xE3) ), ( 'LEFT SUPER', ('USB', 0xE3) ), ( 'WINDOWS', ('USB', 0xE3) ), ( 'LEFT WINDOWS', ('USB', 0xE3) ), ( 'WIN', ('USB', 0xE3) ), ( 'LEFT WIN', ('USB', 0xE3) ),
+	( 'LALT', ('USB', 0xE2) ), ( 'LEFT ALT', ('USB', 0xE2) ), ( 'ALT', ('USB', 0xE2) ), ( 'ALTERNATE', ('USB', 0xE2) ), ( 'LEFT ALTERNATE', ('USB', 0xE2) ), ( 'LEFT OPTION', ('USB', 0xE2) ), ( 'LEFT OPT', ('USB', 0xE2) ), ( 'LOPTION', ('USB', 0xE2) ), ( 'LOPT', ('USB', 0xE2) ), ( 'OPTION', ('USB', 0xE2) ), ( 'OPT', ('USB', 0xE2) ),
+	( 'LGUI', ('USB', 0xE3) ), ( 'LEFT GUI', ('USB', 0xE3) ), ( 'GUI', ('USB', 0xE3) ), ( 'SUPER', ('USB', 0xE3) ), ( 'LEFT SUPER', ('USB', 0xE3) ), ( 'WINDOWS', ('USB', 0xE3) ), ( 'LEFT WINDOWS', ('USB', 0xE3) ), ( 'WIN', ('USB', 0xE3) ), ( 'LEFT WIN', ('USB', 0xE3) ), ( 'LEFT CMD', ('USB', 0xE3) ), ( 'LCMD', ('USB', 0xE3) ), ( 'LEFT COMMAND', ('USB', 0xE3) ), ( 'LCOMMAND', ('USB', 0xE3) ), ( 'CMD', ('USB', 0xE3) ), ( 'COMMAND', ('USB', 0xE3) ),
 	( 'RCTRL', ('USB', 0xE4) ), ( 'RIGHT CTRL', ('USB', 0xE4) ), ( 'RIGHT CONTROL', ('USB', 0xE4) ),
 	( 'RSHIFT', ('USB', 0xE5) ), ( 'RIGHT SHIFT', ('USB', 0xE5) ),
-	( 'RALT', ('USB', 0xE6) ), ( 'RIGHT ALT', ('USB', 0xE6) ), ( 'RIGHT ALTERNATE', ('USB', 0xE6) ),
-	( 'RGUI', ('USB', 0xE7) ), ( 'RIGHT GUI', ('USB', 0xE7) ), ( 'RIGHT SUPER', ('USB', 0xE7) ), ( 'RIGHT WINDOWS', ('USB', 0xE7) ), ( 'RIGHT WIN', ('USB', 0xE7) ),
+	( 'RALT', ('USB', 0xE6) ), ( 'RIGHT ALT', ('USB', 0xE6) ), ( 'RIGHT ALTERNATE', ('USB', 0xE6) ), ( 'RIGHT OPTION', ('USB', 0xE2) ), ( 'RIGHT OPT', ('USB', 0xE2) ), ( 'ROPTION', ('USB', 0xE2) ), ( 'ROPT', ('USB', 0xE2) ),
+	( 'RGUI', ('USB', 0xE7) ), ( 'RIGHT GUI', ('USB', 0xE7) ), ( 'RIGHT SUPER', ('USB', 0xE7) ), ( 'RIGHT WINDOWS', ('USB', 0xE7) ), ( 'RIGHT WIN', ('USB', 0xE7) ), ( 'RIGHT CMD', ('USB', 0xE3) ), ( 'RCMD', ('USB', 0xE3) ), ( 'RIGHT COMMAND', ('USB', 0xE3) ), ( 'RCOMMAND', ('USB', 0xE3) ),
 
 # Special Function Shift/Lock/Latch symbolic names (not part of the USB HID spec)
 	( 'FUN1', ('USB', 0xF0) ), ( 'FUNCTION1', ('USB', 0xF0) ), ( 'FUN', ('USB', 0xF0) ),
