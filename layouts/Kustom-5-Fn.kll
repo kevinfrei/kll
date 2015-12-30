@@ -25,35 +25,34 @@ U"0" : U"F10";
 U"-" : U"F11";
 
 #Row 2
+U"Q" : U"Insert";
 U"W" : CONS"ScanPreviousTrack";
 U"E" : U"PageUp";
 U"R" : CONS"ScanNextTrack";
 U"T" : ledControl( 5, 0, 0 ); # Turn off the LED's
 U"[" : ledControl( 4, 5, 0 ); # Increase LED brightness
 
-U"]" : CONS"VolumeUp";
 U"U" : CONS"ScanPreviousTrack";
 U"I" : U"Up";
 U"O" : CONS"ScanNextTrack";
-U"P" : U"8";
-U"\" : U"Esc";
+U"P" : U"8"; # Because Rocksmith...
+U"\" : U"Esc"; # Because Rocksmith...
 
 #Row 3
+U"A" : U"Pause";
 U"S" : U"Home";
 U"D" : U"PageDown";
 U"F" : U"End";
-U"G" : CONS"PausePlay";
 U"`" : ledControl( 3, 5, 0 ); # Decrease LED brightness
 
-U"=" : CONS"VolumeDown";
-U"H" : CONS"PausePlay";
 U"J" : U"Left";
 U"K" : U"Down";
 U"L" : U"Right";
-U";" : U"Tab";
-U"'" : U"RCtrl";
+U";" : U"Tab"; # Because Rocksmith...
+U"'" : U"RCtrl"; # Because Rocksmith...
 
 #Row 5
+U"Lock4" : CONS"ScreenSaver";
 U"Lock5" : SYS"Sleep";
 
 #Left thumb cluster

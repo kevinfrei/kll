@@ -10,9 +10,9 @@ Version = "0.1";
 # This should be layer 6
 
 U"Lock3" : layerLock( 6 ) + LCDLayerDisplay();
-U"App" : U",";
+U"RCtrl" : U",";
 U"," : U"Up";
 U"Up" : U"Down";
 U"Down" : U"Right";
 U"Right" : U"RAlt";
-U"Lock7" : U"RCtrl";
+U"RGui" : U"RCtrl";

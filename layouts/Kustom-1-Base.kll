@@ -7,4 +7,5 @@ Layout = "Default";
 Name = "Kustom-0-Base";
 Version = "0.1";
 
-U"Lock2" : U"6";
+# This layer is strictly for vanity: if you put it on, you get the nifty
+# ergodox icon on the LCD's...

@@ -7,13 +7,15 @@ Layout = "Default";
 Name = "Mac-2";
 Version = "0.1";
 
-U"Lock4" : U"Left";
-U"Lock5" : U"Right";
-U"Lock7" : U"RAlt";
-U"RAlt" : CONS"ScanNextTrack";
+U"Lock2" : CONS"ScanNextTrack";
+U"RGui" : U"RAlt";
+U"RAlt" : CONS"ScanPreviousTrack";
 U"App" : CONS"PausePlay";
 U"CapsLock" : U"RGui";
 U"Lock1" : layerLock( 2 ) + layerLock( 3 ) + LCDLayerDisplay();
 U"Lock3" : layerLock( 4 ) + LCDLayerDisplay( );
 U"LGui" : U"LAlt";
 U"LAlt" : U"LGui";
+
+U"Lock4" : CONS"VolumeDown";
+U"Lock5" : CONS"VolumeUp";

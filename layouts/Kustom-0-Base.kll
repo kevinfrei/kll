@@ -8,3 +8,4 @@ Name = "Kustom-0-Base";
 Version = "0.1";
 
 U"Lock6" : CONS"Mute";
+U"RCtrl" : CONS"PausePlay";
