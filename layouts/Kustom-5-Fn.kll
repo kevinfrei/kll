@@ -52,7 +52,7 @@ U";" : U"Tab"; # Because Rocksmith...
 U"'" : U"RCtrl"; # Because Rocksmith...
 
 #Row 5
-U"Lock4" : CONS"ScreenSaver";
+U"Lock4" : CONS"Calculator";
 U"Lock5" : SYS"Sleep";
 
 #Left thumb cluster

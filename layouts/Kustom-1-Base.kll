@@ -9,3 +9,5 @@ Version = "0.1";
 
 # This layer is strictly for vanity: if you put it on, you get the nifty
 # ergodox icon on the LCD's...
+# Put a Flash on here, so the right keyboard can get to flash without the left
+U"-" : flashMode();

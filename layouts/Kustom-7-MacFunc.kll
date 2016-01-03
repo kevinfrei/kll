@@ -8,7 +8,7 @@ Name = "MacFunc-7";
 Version = "0.1";
 
 # Nothing fancy here, just mapping -most- things to Cmd(Gui)+things
-# A few are different (The Windows version is VERY different)
+# A few are different to make Mac & Windows behave the same way
 
 # Top Row
 U"Escape" : U"Cmd" + U"Escape";
@@ -17,7 +17,11 @@ U"2" : U"Cmd" + U"2";
 U"3" : U"Cmd" + U"3";
 U"4" : U"Cmd" + U"4";
 U"5" : U"Cmd" + U"5";
+# Make it dock a window to the left (this is what I have ShiftIt set up to do)
+U"Lock2" : U"Shift" + U"Ctrl" + U"Option" + U"Left";
 
+# Make it dock a window to the left (this is what I have ShiftIt set up to do)
+U"Lock6" : U"Shift" + U"Ctrl" + U"Option" + U"Right";
 U"6" : U"Cmd" + U"6";
 U"7" : U"Cmd" + U"7";
 U"8" : U"Cmd" + U"8";
@@ -26,15 +30,15 @@ U"0" : U"Cmd" + U"0";
 U"-" : U"Cmd" + U"-";
 
 # Second Row
-U"Tab" : U"Cmd" + U"Tab";
+U"Tab" : U"Cmd" + U"Tab"; # If I wanted, I could map this to something else, since alt/cmd+tab work
 U"Q" : U"Cmd" + U"Q"; # Quit
 U"W" : U"Cmd" + U"W"; # Close
 U"E" : U"Cmd" + U"E";
 U"R" : U"Cmd" + U"R";
 U"T" : U"Cmd" + U"T";
-U"LBRACE" : U"Cmd" + U"LBRACE"; # Browser Back
+U"LBrace" : U"Cmd" + U"LBrace"; # Browser Back
 
-U"RBRACE" : U"Cmd" + U"RBRACE"; # Browser Forward
+U"RBrace" : U"Cmd" + U"RBrace"; # Browser Forward
 U"Y" : U"Cmd" + U"Y"; # Redo
 U"U" : U"Cmd" + U"U"; # Underline
 U"I" : U"Cmd" + U"I"; # Italic
@@ -66,18 +70,21 @@ U"`" : U"Cmd" + U"`";
 
 U"=" : U"Cmd" + U"=";
 U"N" : U"Cmd" + U"N"; # New
-U"M" : U"Cmd" + U"M"; # Minimize
+U"M" : U"Cmd" + U"M"; # Minimize?
 U"," : U"Cmd" + U",";
 U"." : U"Cmd" + U"."; # Cancel
 U"/" : U"Cmd" + U"/";
+U"RShift" : U"Cmd" + U"Space"; # Spotlight
 
 # Left Thumb Cluster
+# Could make RAlt do something
 U"Backspace" : U"Opt" + U"Backspace"; # Backspace Word
 U"Delete" : U"Opt" + U"Delete"; # Delete Word
 U"PageUp" : U"Cmd" + U"PageUp";
 U"PageDown" : U"Cmd" + U"PageDown";
 
 # Right Thumb Cluster
+# Could make RCtrl do something 
 U"Home" : U"Cmd" + U"Home";
 U"End" : U"Cmd" + U"End";
 U"Enter" : U"Cmd" + U"Enter";
@@ -87,4 +94,5 @@ U"Space" : U"Cmd" + U"Space";
 U"Left" : U"Opt" + U"Left"; # Previous Word
 U"Up" : U"Cmd" + U"Up";
 U"Down" : U"Cmd" + U"Down";
-U"Right" : U"Opt" + U"Right"; # Next Word
+U"Right" : U"Opt" + U"Right";
+# End

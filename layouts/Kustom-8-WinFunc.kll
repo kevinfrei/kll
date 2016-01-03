@@ -7,8 +7,8 @@ Layout = "Default";
 Name = "WinFunc-8";
 Version = "0.1";
 
-# Mapping -most- things to Ctrl+things
-# A few are different to make things behave in both Mac & PC mode
+# Nothing fancy here, just mapping -most- things to Ctrl+things
+# A few are different to make Mac & Windows behave the same way
 
 # Top Row
 U"Escape" : U"Ctrl" + U"Escape";
@@ -17,7 +17,9 @@ U"2" : U"Ctrl" + U"2";
 U"3" : U"Ctrl" + U"3";
 U"4" : U"Ctrl" + U"4";
 U"5" : U"Ctrl" + U"5";
+U"Lock2" : U"Gui" + U"Left"; # Dock window Left
 
+U"Lock6" : U"Gui" + U"Right"; # Dock window right
 U"6" : U"Ctrl" + U"6";
 U"7" : U"Ctrl" + U"7";
 U"8" : U"Ctrl" + U"8";
@@ -34,21 +36,23 @@ U"R" : U"Ctrl" + U"R";
 U"T" : U"Ctrl" + U"T";
 U"LBrace" : U"Alt" + U"Left"; # Browser Back
 
-U"RBrace" : U"Alt" + U"RBrace"; # Browser Forward
-U"Y" : U"Ctrl" + U"Y";
-U"U" : U"Ctrl" + U"U";
-U"I" : U"Ctrl" + U"I";
-U"O" : U"Ctrl" + U"O";
-U"P" : U"Ctrl" + U"P";
+U"RBrace" : U"Alt" + U"Right"; # Browser Forward
+U"Y" : U"Ctrl" + U"Y"; # Redo
+U"U" : U"Ctrl" + U"U"; # Underline
+U"I" : U"Ctrl" + U"I"; # Italic
+U"O" : U"Ctrl" + U"O"; # Open
+U"P" : U"Ctrl" + U"P"; # Print
 U"\" : U"Ctrl" + U"\";
 
 # Third Row
-U"A" : U"Ctrl" + U"A";
-U"S" : U"Ctrl" + U"S";
+U"A" : U"Ctrl" + U"A"; # Select All
+U"S" : U"Ctrl" + U"S"; # Save
 U"D" : U"Ctrl" + U"D";
-U"F" : U"Ctrl" + U"F";
+U"F" : U"Ctrl" + U"F"; # Find
 U"G" : U"Ctrl" + U"G";
+U"`" : U"Ctrl" + U"`";
 
+U"=" : U"Ctrl" + U"=";
 U"H" : U"Ctrl" + U"H";
 U"J" : U"Ctrl" + U"J";
 U"K" : U"Ctrl" + U"K";
@@ -63,14 +67,13 @@ U"C" : U"Ctrl" + U"C";
 U"V" : U"Ctrl" + U"V";
 U"B" : U"Ctrl" + U"B";
 
-U"`" : U"Ctrl" + U"`";
-U"=" : U"Ctrl" + U"=";
 U"N" : U"Ctrl" + U"N";
 U"M" : U"Ctrl" + U"M";
 U"," : U"Ctrl" + U",";
 U"," : U"Ctrl" + U",";
 U"." : U"Escape"; # Cancel
 U"/" : U"Ctrl" + U"/";
+U"RShift" : U"Gui"; # Just hit the Windows key, then start typing
 
 # Left Thumb Cluster
 U"Backspace" : U"Ctrl" + U"Backspace";

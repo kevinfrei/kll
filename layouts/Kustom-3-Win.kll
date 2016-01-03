@@ -7,17 +7,15 @@ Layout = "Default";
 Name = "Win-3";
 Version = "0.1";
 
-#This should be layer 3
+U"-" : U"-";
 U"Lock2" : U"App";
 U"RAlt" : U"PrintScreen";
-U"Lock3" : layerLock( 4 ) + LCDLayerDisplay();
+U"Lock3" : U"Lock4"; # layerLock( 4 ) + LCDLayerDisplay();
 U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();
 
-U"Lock4" : CONS"VolumeDown";
-U"Lock5" : CONS"VolumeUp";
-
 # Enable my goofy remapping stuff
-U"CapsLock" : U"Ctrl";
-#U"CapsLock" : layerShift( 8 ) + LCDLayerDisplay( );
-# Enable my much goofier emacs-ish remapping stuff
-#U"LCtrl" : layerShift( 9 ) + LCDLayerDisplay( );
+U"CapsLock" : U"Function8"; # layerShift( 8 ) + LCDLayerDisplay( );
+# Enable my much goofier Unixy remapping stuff for text editing goodness
+# This one may not survive, because it doesn't allow signally the ctrl press
+# as a separate action from the tab press for ctrl-tab navigation...
+U"LCtrl" : U"Function9"; # layerShift( 9 ) + LCDLayerDisplay( );

@@ -7,17 +7,13 @@ Layout = "Default";
 Name = "Mac-2";
 Version = "0.1";
 
-U"Lock2" : CONS"ScanNextTrack";
+U"-" : U"-";
+U"Lock2" : CONS"ScanPreviousTrack";
 U"RGui" : U"ROpt";
-U"RAlt" : CONS"ScanPreviousTrack";
-U"App" : CONS"PausePlay";
+U"RAlt" :  CONS"ScanNextTrack";
 U"Lock1" : layerLock( 2 ) + layerLock( 3 ) + LCDLayerDisplay();
-U"Lock3" : layerLock( 4 ) + LCDLayerDisplay( );
+U"Lock3" : U"Lock4"; # layerLock( 4 ) + LCDLayerDisplay( );
 U"LGui" : U"LOpt";
 U"LAlt" : U"LCmd";
-
-U"Lock4" : CONS"VolumeDown";
-U"Lock5" : CONS"VolumeUp";
-
- # Enable my goofy remapping stuff...
-U"CapsLock" : layerShift( 7 ) + LCDLayerDisplay( );
+# Enable my goofy remapping stuff...
+U"CapsLock" : U"Function7"; # layerShift( 7 ) + LCDLayerDisplay( );
