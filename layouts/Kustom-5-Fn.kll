@@ -7,9 +7,7 @@ Layout = "Default";
 Name = "Fn-5";
 Version = "0.1";
 
-#This should be layer 5
-
-#Top row
+# Numbers row
 U"1" : U"F1";
 U"2" : U"F2";
 U"3" : U"F3";
@@ -24,7 +22,7 @@ U"9" : U"F9";
 U"0" : U"F10";
 U"-" : U"F11";
 
-#Row 2
+# QWERTY row
 U"Q" : U"Insert";
 U"W" : CONS"ScanPreviousTrack";
 U"E" : U"PageUp";
@@ -38,7 +36,7 @@ U"O" : CONS"ScanNextTrack";
 U"P" : U"8"; # Because Rocksmith...
 U"\" : U"Esc"; # Because Rocksmith...
 
-#Row 3
+# ASDF row
 U"A" : U"Pause";
 U"S" : U"Home";
 U"D" : U"PageDown";
@@ -51,9 +49,9 @@ U"L" : U"Right";
 U";" : U"Tab"; # Because Rocksmith...
 U"'" : U"RCtrl"; # Because Rocksmith...
 
-#Row 5
+# Bottom row
 U"Lock4" : CONS"Calculator";
 U"Lock5" : SYS"Sleep";
 
-#Left thumb cluster
+# Top Left Thumb cluster
 U"Lock3" : layerLock( 5 ) + layerLock( 6 ) + LCDLayerDisplay();

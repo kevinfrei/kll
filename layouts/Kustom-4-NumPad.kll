@@ -9,7 +9,7 @@ Version = "0.1";
 
 #This should be layer 4
 
-#Top row
+# Numbers row
 U"Esc" : flashMode(); # Enable flash mode
 U"7" : U"P7";
 U"8" : U"P8";
@@ -17,26 +17,26 @@ U"9" : U"P9";
 U"0" : U"P/";
 U"-" : U"Esc";
 
-#Row 2
+# QWERTY row
 U"U" : U"P4";
 U"I" : U"P5";
 U"O" : U"P6";
 U"P" : U"P*";
 U"\" : U"Tab";
 
-#Row 3
+# ASDF row
 U"J" : U"P1";
 U"K" : U"P2";
 U"L" : U"P3";
 U";" : U"P-";
 U"'" : U"Enter";
 
-#Row 4
+# ZXCV row
 U"M" : U"P0";
 U"N" : U"P00";
 U"," : U"P.";
 U"." : U"P+";
 U"RShift" : U"Enter";
 
-#Thumb Cluster
+# Top Left Thumb cluster
 U"Lock3" : layerLock( 4 ) + layerLock( 5 ) + LCDLayerDisplay();

@@ -7,13 +7,20 @@ Layout = "Default";
 Name = "Mac-2";
 Version = "0.1";
 
-U"-" : U"-";
+# Numbers row
 U"Lock2" : CONS"ScanPreviousTrack";
+
+U"-" : U"-"; # Undo layer 1, just in case
+
+# QWERTY row
 U"RGui" : U"ROpt";
+
+# ASDF row
+# Enable my goofy remapping stuff...
+U"CapsLock" : U"Function7";
+
 U"RAlt" :  CONS"ScanNextTrack";
 U"Lock1" : layerLock( 2 ) + layerLock( 3 ) + LCDLayerDisplay();
-U"Lock3" : U"Lock4"; # layerLock( 4 ) + LCDLayerDisplay( );
+U"Lock3" : U"Lock4";
 U"LGui" : U"LOpt";
 U"LAlt" : U"LCmd";
-# Enable my goofy remapping stuff...
-U"CapsLock" : U"Function7"; # layerShift( 7 ) + LCDLayerDisplay( );

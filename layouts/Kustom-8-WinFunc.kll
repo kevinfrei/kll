@@ -34,9 +34,7 @@ U"W" : U"Ctrl" + U"F4"; # Close Window
 U"E" : U"Ctrl" + U"E";
 U"R" : U"Ctrl" + U"R";
 U"T" : U"Ctrl" + U"T";
-U"LBrace" : U"Alt" + U"Left"; # Browser Back
 
-U"RBrace" : U"Alt" + U"Right"; # Browser Forward
 U"Y" : U"Ctrl" + U"Y"; # Redo
 U"U" : U"Ctrl" + U"U"; # Underline
 U"I" : U"Ctrl" + U"I"; # Italic
@@ -76,18 +74,25 @@ U"/" : U"Ctrl" + U"/";
 U"RShift" : U"Gui"; # Just hit the Windows key, then start typing
 
 # Left Thumb Cluster
+#U"Ralt" : U"Gui" + U"Left", U"Up"; # Dock top left
+#U"Lock3" : U"Gui" + U"Left", U"Down"; # Dock bottom left
 U"Backspace" : U"Ctrl" + U"Backspace";
 U"Delete" : U"Ctrl" + U"Delete";
 U"PageUp" : U"Ctrl" + U"PageUp";
 U"PageDown" : U"Ctrl" + U"PageDown";
 
 # Right Thumb Cluster
+#U"RCtrl" : U"Gui" + U"Right", U"Up"; # Dock top right
+#U"Lock1" : U"Gui" + U"Right", U"Down"; # Dock bottom right
 U"Home" : U"Ctrl" + U"Home";
 U"End" : U"Ctrl" + U"End";
 U"Enter" : U"Ctrl" + U"Enter";
 U"Space" : U"Ctrl" + U"Space";
 
+U"LBrace" : U"Alt" + U"Left"; # Browser Back
+
 # Arrows
+U"RBrace" : U"Alt" + U"Right"; # Browser Forward
 U"Left" : U"Ctrl" + U"Left";
 U"Up" : U"Ctrl" + U"Up";
 U"Down" : U"Ctrl" + U"Down";

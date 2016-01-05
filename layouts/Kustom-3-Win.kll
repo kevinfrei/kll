@@ -7,15 +7,24 @@ Layout = "Default";
 Name = "Win-3";
 Version = "0.1";
 
-U"-" : U"-";
+# Numbers row
 U"Lock2" : U"App";
-U"RAlt" : U"PrintScreen";
-U"Lock3" : U"Lock4"; # layerLock( 4 ) + LCDLayerDisplay();
-U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();
 
+U"-" : U"-"; # Undo Layer 1, just in case
+
+# ASDF row
 # Enable my goofy remapping stuff
-U"CapsLock" : U"Function8"; # layerShift( 8 ) + LCDLayerDisplay( );
+U"CapsLock" : U"Function8";
+
+# Bottom row
 # Enable my much goofier Unixy remapping stuff for text editing goodness
 # This one may not survive, because it doesn't allow signally the ctrl press
 # as a separate action from the tab press for ctrl-tab navigation...
 U"LCtrl" : U"Function9"; # layerShift( 9 ) + LCDLayerDisplay( );
+
+# Top Left Thumb cluster
+U"RAlt" : U"PrintScreen";
+U"Lock3" : U"Lock4";
+
+# Top Right Thumb cluster
+U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();

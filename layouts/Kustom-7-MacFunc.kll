@@ -21,7 +21,7 @@ U"5" : U"Cmd" + U"5";
 U"Lock2" : U"Shift" + U"Ctrl" + U"Option" + U"Left";
 
 # Make it dock a window to the left (this is what I have ShiftIt set up to do)
-U"Lock6" : U"Shift" + U"Ctrl" + U"Option" + U"Right";
+U"Lock6" : U"Shift" + U"Ctrl" + U"Option" + U"Right"; # Dock Left
 U"6" : U"Cmd" + U"6";
 U"7" : U"Cmd" + U"7";
 U"8" : U"Cmd" + U"8";
@@ -36,9 +36,9 @@ U"W" : U"Cmd" + U"W"; # Close
 U"E" : U"Cmd" + U"E";
 U"R" : U"Cmd" + U"R";
 U"T" : U"Cmd" + U"T";
-U"LBrace" : U"Cmd" + U"LBrace"; # Browser Back
+U"Lock5" : U"Cmd" + U"M"; # Minimize
 
-U"RBrace" : U"Cmd" + U"RBrace"; # Browser Forward
+U"RGui" : U"Shift" + U"Ctrl" + U"Option" + U"Up"; # Maximize
 U"Y" : U"Cmd" + U"Y"; # Redo
 U"U" : U"Cmd" + U"U"; # Underline
 U"I" : U"Cmd" + U"I"; # Italic
@@ -76,15 +76,21 @@ U"." : U"Cmd" + U"."; # Cancel
 U"/" : U"Cmd" + U"/";
 U"RShift" : U"Cmd" + U"Space"; # Spotlight
 
+# Control/Arrows rows:
+U"LBrace" : U"Cmd" + U"LBrace"; # Browser Back
+U"RBrace" : U"Cmd" + U"RBrace"; # Browser Forward
+
 # Left Thumb Cluster
-# Could make RAlt do something
+U"Ralt" : U"Shift" + U"Ctrl" + U"Option" + U"H"; # Dock top left
+U"Lock3" : U"Shift" + U"Ctrl" + U"Option" + U"N"; # Dock bottom left
 U"Backspace" : U"Opt" + U"Backspace"; # Backspace Word
 U"Delete" : U"Opt" + U"Delete"; # Delete Word
 U"PageUp" : U"Cmd" + U"PageUp";
 U"PageDown" : U"Cmd" + U"PageDown";
 
 # Right Thumb Cluster
-# Could make RCtrl do something 
+U"RCtrl" : U"Shift" + U"Ctrl" + U"Option" + U"J"; # Dock top right
+U"Lock1" : U"Shift" + U"Ctrl" + U"Option" + U"M"; # Dock bottom right
 U"Home" : U"Cmd" + U"Home";
 U"End" : U"Cmd" + U"End";
 U"Enter" : U"Cmd" + U"Enter";
@@ -95,4 +101,5 @@ U"Left" : U"Opt" + U"Left"; # Previous Word
 U"Up" : U"Cmd" + U"Up";
 U"Down" : U"Cmd" + U"Down";
 U"Right" : U"Opt" + U"Right";
+
 # End
