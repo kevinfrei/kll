@@ -1,3 +1,5 @@
+Warning: My KLL is based on my fork of the controller code. It will not work properly with an unforked controller repo, because I have a different base layer. Please keep that in mind...
+
 kll - keyboard layout language
 ==============================
 
