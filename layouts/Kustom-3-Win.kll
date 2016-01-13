@@ -24,7 +24,6 @@ U"LCtrl" : U"Function9"; # layerShift( 9 ) + LCDLayerDisplay( );
 
 # Top Left Thumb cluster
 U"RAlt" : U"PrintScreen";
-U"Lock3" : U"Lock4";
 
 # Top Right Thumb cluster
 U"Lock1" : layerLock( 3 ) + layerLock( 2 ) + LCDLayerDisplay();

@@ -21,6 +21,5 @@ U"CapsLock" : U"Function7";
 
 U"RAlt" :  CONS"ScanNextTrack";
 U"Lock1" : layerLock( 2 ) + layerLock( 3 ) + LCDLayerDisplay();
-U"Lock3" : U"Lock4";
 U"LGui" : U"LOpt";
 U"LAlt" : U"LCmd";
