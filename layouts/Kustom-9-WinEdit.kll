@@ -51,6 +51,7 @@ U"P" : U"Up";
 U"\" : U"Ctrl" + U"\";
 
 # Third Row
+U"CapsLock": U"LCtrl"; # This is so that you can hold down both keys...
 U"A" : U"Home";
 U"S" : U"Ctrl" + U"S";
 U"D" : U"Delete";

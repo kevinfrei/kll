@@ -17,11 +17,9 @@ U"2" : U"Cmd" + U"2";
 U"3" : U"Cmd" + U"3";
 U"4" : U"Cmd" + U"4";
 U"5" : U"Cmd" + U"5";
-# Make it dock a window to the left (this is what I have ShiftIt set up to do)
-U"Lock2" : U"Shift" + U"Ctrl" + U"Option" + U"Left";
+U"Lock2" :  U"Cmd" + U"M"; # Minimize
 
-# Make it dock a window to the left (this is what I have ShiftIt set up to do)
-U"Lock6" : U"Shift" + U"Ctrl" + U"Option" + U"Right"; # Dock Left
+U"Lock6" :  U"Shift" + U"Ctrl" + U"Option" + U"Up"; # Maximize
 U"6" : U"Cmd" + U"6";
 U"7" : U"Cmd" + U"7";
 U"8" : U"Cmd" + U"8";
@@ -36,9 +34,9 @@ U"W" : U"Cmd" + U"W"; # Close
 U"E" : U"Cmd" + U"E";
 U"R" : U"Cmd" + U"R";
 U"T" : U"Cmd" + U"T";
-U"Lock5" : U"Cmd" + U"M"; # Minimize
+U"Lock5" : U"Shift" + U"Ctrl" + U"Option" + U"Left"; # Dock Left
 
-U"RGui" : U"Shift" + U"Ctrl" + U"Option" + U"Up"; # Maximize
+U"RGui" : U"Shift" + U"Ctrl" + U"Option" + U"Right"; # Dock Right
 U"Y" : U"Cmd" + U"Y"; # Redo
 U"U" : U"Cmd" + U"U"; # Underline
 U"I" : U"Cmd" + U"I"; # Italic
@@ -81,7 +79,7 @@ U"LBrace" : U"Cmd" + U"LBrace"; # Browser Back
 U"RBrace" : U"Cmd" + U"RBrace"; # Browser Forward
 
 # Left Thumb Cluster
-U"Ralt" : U"Shift" + U"Ctrl" + U"Option" + U"H"; # Dock top left
+U"RAlt" : U"Shift" + U"Ctrl" + U"Option" + U"H"; # Dock top left
 U"Lock3" : U"Shift" + U"Ctrl" + U"Option" + U"N"; # Dock bottom left
 U"Backspace" : U"Opt" + U"Backspace"; # Backspace Word
 U"Delete" : U"Opt" + U"Delete"; # Delete Word

@@ -7,6 +7,10 @@ Layout = "Default";
 Name = "Game-6";
 Version = "0.1";
 
+# Undo any of the layer mapping modifiers
+U"CapsLock": U"CapsLock";
+U"LCtrl": U"LCtrl";
+
 # ZXCV row
 U"," : U"Up";
 
