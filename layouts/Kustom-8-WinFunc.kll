@@ -80,7 +80,7 @@ U"RShift" : U"Gui"; # Just hit the Windows key, then start typing
 U"LCtrl" : U"LCtrl";
 
 # Left Thumb Cluster
-#U"Ralt" : U"Gui" + U"Left", U"Up"; # Dock top left
+#U"RAlt" : U"Gui" + U"Left", U"Up"; # Dock top left
 #U"Lock3" : U"Gui" + U"Left", U"Down"; # Dock bottom left
 U"Backspace" : U"Ctrl" + U"Backspace";
 U"Delete" : U"Ctrl" + U"Delete";

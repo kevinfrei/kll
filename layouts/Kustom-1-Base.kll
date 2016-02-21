@@ -11,4 +11,5 @@ Version = "0.1";
 # ergodox icon on the LCD's...
 # Put a Flash on here, so the right keyboard can get to flash without the left
 U"-" : flashMode();
+U"Esc" : flashMode();
 U"Lock1" : U"Lock2";

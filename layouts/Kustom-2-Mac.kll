@@ -10,7 +10,9 @@ Version = "0.1";
 # Numbers row
 U"Lock2" : CONS"ScanPreviousTrack";
 
-U"-" : U"-"; # Undo layer 1, just in case
+# Undo layer 1, just in case
+U"-" : U"-";
+U"Esc" : U"Esc";
 
 # QWERTY row
 U"RGui" : U"ROpt";

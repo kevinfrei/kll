@@ -17,10 +17,10 @@ U"-" : U"-"; # Undo Layer 1, just in case
 U"CapsLock" : U"Function8";
 
 # Bottom row
-# Enable my much goofier Unixy remapping stuff for text editing goodness
+# Enable my much goofier Unix-y remapping stuff for text editing goodness
 # This one may not survive, because it doesn't allow signally the ctrl press
 # as a separate action from the tab press for ctrl-tab navigation...
-U"LCtrl" : U"Function9"; # layerShift( 9 ) + LCDLayerDisplay( );
+U"LCtrl" : U"Function9";
 
 # Top Left Thumb cluster
 U"RAlt" : U"PrintScreen";
