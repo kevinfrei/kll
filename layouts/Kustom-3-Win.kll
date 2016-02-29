@@ -10,7 +10,9 @@ Version = "0.1";
 # Numbers row
 U"Lock2" : U"App";
 
-U"-" : U"-"; # Undo Layer 1, just in case
+# Undo Layer 1, so we don't wind up flash mode.
+U"-" : U"-";
+U"Esc" : U"Esc";
 
 # ASDF row
 # Enable my goofy remapping stuff
@@ -18,8 +20,7 @@ U"CapsLock" : U"Function8";
 
 # Bottom row
 # Enable my much goofier Unix-y remapping stuff for text editing goodness
-# This one may not survive, because it doesn't allow signally the ctrl press
-# as a separate action from the tab press for ctrl-tab navigation...
+# To pass a Control down, you have to hold both keys down...
 U"LCtrl" : U"Function9";
 
 # Top Left Thumb cluster

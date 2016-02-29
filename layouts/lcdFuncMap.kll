@@ -85,27 +85,27 @@ STLcdNumber9Color => STLcdNumber9Color_define;
 # backlight, so I changed all the colors to not include any red, so
 # the two halves look the same :(
 
-#STLcdNumber0Color = "0x0000, 0x8080, 0x4040"; # Sprite Green         #01A850
-#STLcdNumber1Color = "0x0000, 0xC0C0, 0xC0C0"; # Butter Cow Off-white #F6E3BC
-#STLcdNumber2Color = "0x0000, 0x2020, 0xC0C0"; # Fanta Purple         #AE1AF7
-#STLcdNumber3Color = "0x0000, 0x1010, 0xA0A0"; # Smart Water Blue     #00ADEF
-#STLcdNumber4Color = "0x0000, 0xA0A0, 0x5050"; # Fanta Orange         #F6A549 (boosted to 100%)
-#STLcdNumber5Color = "0x0000, 0x6060, 0x8080"; # Nicki Minaj Pink     #F47CB1
-#STLcdNumber6Color = "0x0000, 0x1010, 0x8080"; # Red Bull Blue        #0D19B0
-#STLcdNumber7Color = "0x0000, 0x3030, 0x2020"; # Taylor Swift's Lips  #E0342A
-#STLcdNumber8Color = "0x0000, 0x9090, 0x0000"; # Matrix Green         #64BC46
-#STLcdNumber9Color = "0x0000, 0xC0C0, 0x3030"; # Iowa Corn Yellow     #FBDF3C
+STLcdNumber0Color = "0x0000, 0x8080, 0x4040"; # Sprite Green         #01A850
+STLcdNumber1Color = "0x0000, 0xC0C0, 0xC0C0"; # Butter Cow Off-white #F6E3BC
+STLcdNumber2Color = "0x0000, 0x0000, 0xC0C0"; # Fanta Purple         #AE1AF7
+STLcdNumber3Color = "0x0000, 0xA0A0, 0x0000"; # Smart Water Blue     #00ADEF
+STLcdNumber4Color = "0x0000, 0xA0A0, 0x5050"; # Fanta Orange         #F6A549 (boosted to 100%)
+STLcdNumber5Color = "0x0000, 0x6060, 0x8080"; # Nicki Minaj Pink     #F47CB1
+STLcdNumber6Color = "0x0000, 0x1010, 0x8080"; # Red Bull Blue        #0D19B0
+STLcdNumber7Color = "0x0000, 0x3030, 0x2020"; # Taylor Swift's Lips  #E0342A
+STLcdNumber8Color = "0x0000, 0x9090, 0x0000"; # Matrix Green         #64BC46
+STLcdNumber9Color = "0x0000, 0xC0C0, 0x3030"; # Iowa Corn Yellow     #FBDF3C
 
-STLcdNumber0Color = "0x00C1, 0x7E7E, 0x3C3C"; # Sprite Green         #01A850
-STLcdNumber1Color = "0xB939, 0xAAEA, 0x8D8D"; # Butter Cow Off-white #F6E3BC
-STLcdNumber2Color = "0x8303, 0x1394, 0xB9F9"; # Fanta Purple         #AE1AF7
-STLcdNumber3Color = "0x0000, 0x8242, 0xB3F3"; # Smart Water Blue     #00ADEF
-STLcdNumber4Color = "0xF6F6, 0xA5A5, 0x4949"; # Fanta Orange         #F6A549 (boosted to 100%)
-STLcdNumber5Color = "0xB7B7, 0x5D5D, 0x8545"; # Nicki Minaj Pink     #F47CB1
-STLcdNumber6Color = "0x09CA, 0x12D3, 0x8484"; # Red Bull Blue        #0D19B0
-STLcdNumber7Color = "0xA8A8, 0x2727, 0x1FA0"; # Taylor Swift's Lips  #E0342A
-STLcdNumber8Color = "0x4B4B, 0x8D8D, 0x34B5"; # Matrix Green         #64BC46
-STLcdNumber9Color = "0xBCFC, 0xB6F6, 0x2D2D"; # Iowa Corn Yellow     #FBDF3C
+#STLcdNumber0Color = "0x00C1, 0x7E7E, 0x3C3C"; # Sprite Green         #01A850
+#STLcdNumber1Color = "0xB939, 0xAAEA, 0x8D8D"; # Butter Cow Off-white #F6E3BC
+#STLcdNumber2Color = "0x0000, 0x8242, 0xB3F3"; # Smart Water Blue     #00ADEF
+#STLcdNumber3Color = "0x4B4B, 0x8D8D, 0x34B5"; # Matrix Green         #64BC46
+#STLcdNumber4Color = "0x8303, 0x1394, 0xB9F9"; # Fanta Purple         #AE1AF7
+#STLcdNumber5Color = "0xF6F6, 0xA5A5, 0x4949"; # Fanta Orange         #F6A549 (boosted to 100%)
+#STLcdNumber6Color = "0xB7B7, 0x5D5D, 0x8545"; # Nicki Minaj Pink     #F47CB1
+#STLcdNumber7Color = "0x09CA, 0x12D3, 0x8484"; # Red Bull Blue        #0D19B0
+#STLcdNumber8Color = "0xA8A8, 0x2727, 0x1FA0"; # Taylor Swift's Lips  #E0342A
+#STLcdNumber9Color = "0xBCFC, 0xB6F6, 0x2D2D"; # Iowa Corn Yellow     #FBDF3C
 
 
 # Basic 32x32 numbers used to display layer stack
