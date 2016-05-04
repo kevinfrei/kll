@@ -7,12 +7,12 @@ Layout = "Default";
 Name = "Win-3";
 Version = "0.1";
 
-# Numbers row
-U"Lock2" : U"App";
-
 # Undo Layer 1, so we don't wind up flash mode.
 U"-" : U"-";
 U"Esc" : U"Esc";
+
+# QWERTY row
+U"Lock5" : U"App";
 
 # ASDF row
 # Enable my goofy remapping stuff

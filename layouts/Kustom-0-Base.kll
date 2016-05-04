@@ -8,8 +8,8 @@ Name = "Kustom-0-Base";
 Version = "0.1";
 
 # Just some media control stuff instead of direct access to different layers...
+U"Lock2" : U"VolumeDown";
 U"Lock3" : U"Lock5"; # I don't use the numpad layer. Ever.
-U"Lock4" : CONS"VolumeDown";
-U"Lock5" : CONS"VolumeUp";
-U"Lock6" : CONS"Mute";
-U"RCtrl" : CONS"PausePlay";
+U"Lock4" : CONS"Mute";
+U"Lock6" : CONS"VolumeUp";
+U"RCtrl" : CONS"ScanNextTrack";

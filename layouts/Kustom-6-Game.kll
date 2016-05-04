@@ -16,10 +16,10 @@ U"," : U"Up";
 
 # Bottom row
 U"Right Brace" : U"Left";
-U"Left" : U"Down"; # U"Up" : U"Down";
-U"Up" : U"Right"; # U"Down" : U"Right";
-U"Down" : U"RAlt"; # U"Right" : U"RAlt";
-U"Right" : U"RCtrl"; # U"RGui" : U"RCtrl";
+U"Left" : U"Down";
+U"Up" : U"Right";
+U"Down" : U"RAlt";
+U"Right" : U"RCtrl";
 
 # Top Left Thumb cluster
 U"Lock3" : layerLock( 6 ) + LCDLayerDisplay();
