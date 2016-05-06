@@ -13,7 +13,7 @@ U"Esc" : U"Esc";
 
 # QWERTY row
 U"RGui" : U"ROpt";
-U"Lock5" : U"PausePlay";
+U"Lock5" : CONS"PausePlay";
 
 # ASDF row
 # Enable my goofy remapping stuff...
