@@ -3,6 +3,8 @@ Warning: My KLL is based on my fork of the controller code. It will not work pro
 kll - keyboard layout language
 ==============================
 
+![](https://travis-ci.org/kiibohd/kll.svg?branch=master)
+
 KLL Compiler
 ------------
 
@@ -38,6 +40,6 @@ Completely welcome :D
 Spec Additions/Fixes
 --------------------
 
-Contact HaaTa via IRC (#geekhack@irc.freenode.net or #deskthority).
+Contact HaaTa via IRC (#input.club@irc.freenode.net).
 Or by email -> haata@kiibohd.com
 
