@@ -1,6 +1,6 @@
 #!/bin/bash
 # Common functions for running kll unit tests
-# Jacob Alexander 2016
+# Jacob Alexander 2016-2017
 
 PASSED=0
 FAILED=0
@@ -14,6 +14,26 @@ result() {
 	else
 		return 1
 	fi
+}
+
+# controller git setup
+git_setup() {
+	export CONTROLLER=/tmp/test_controller
+	cd ${SCRIPT_DIR}/..
+	export KLL=$(pwd)
+
+	# Check for latest controller, clone/update if necessary
+	if [ -e "${CONTROLLER}/main.c" ]; then
+		cd ${CONTROLLER}
+		git pull --rebase origin master
+	else
+		git clone https://github.com/kiibohd/controller.git ${CONTROLLER}
+		cd ${CONTROLLER}
+	fi
+
+	# Symlink this kll to it
+	ln -snf ${KLL} kll
+	cd ${SCRIPT_DIR}
 }
 
 # Runs a command, increments test passed/failed
@@ -32,6 +52,28 @@ cmd() {
 	fi
 
 	return ${RET}
+}
+
+# Runs a command, but on failure tries again while setting an evironment args for CMake infrastructure
+# Arg #1:  Base command
+# Arg #2:  CMakeBuildArgs env variable on failure
+# Arg #3:  CMakeExtraBuildArgs env variable on failure
+cmd_cmake() {
+	local BASE=${1}
+	shift
+
+	# Base command
+	cmd ${BASE}
+
+	# Check result
+	if [[ $? -ne 0 ]]; then
+		local CMakeBuildArgs=${1}
+		shift
+		local CMakeExtraBuildArgs=${1}
+
+		echo "CMD FAILED - RUNNING DEBUG ARGS - CMakeBuildArgs=${CMakeBuildArgs} CMakeExtraBuildArgs=${CMakeExtraBuildArgs}"
+		${BASE}
+	fi
 }
 
 # Run a command multiple times using an array of values

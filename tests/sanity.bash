@@ -1,7 +1,6 @@
 #!/bin/bash
 # Basic sanity check for kll compiler
-# Currently runs both versions of the compiler
-# Jacob Alexander 2016
+# Jacob Alexander 2016-2017
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Common functions
@@ -13,7 +12,6 @@ cd ${SCRIPT_DIR}/..
 
 ## Tests
 
-cmd ./kll.py --version
 cmd ./kll --version
 
 ## Tests complete
