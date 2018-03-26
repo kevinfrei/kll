@@ -12,7 +12,7 @@ U"-" : U"-";
 U"Esc" : U"Esc";
 
 # QWERTY row
-U"RGui" : U"ROpt";
+U"RGui" : U"RAlt";
 U"Lock5" : CONS"PausePlay";
 
 # ASDF row
@@ -21,5 +21,5 @@ U"CapsLock" : U"Function7";
 
 U"RAlt" :  CONS"ScanPreviousTrack";
 U"Lock1" : layerLock( 2 ) + layerLock( 3 ) + LCDLayerDisplay();
-U"LGui" : U"LOpt";
-U"LAlt" : U"LCmd";
+U"LGui" : U"LAlt";
+U"LAlt" : U"LGui";

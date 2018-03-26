@@ -27,8 +27,8 @@ U"Q" : U"Insert";
 U"W" : CONS"ScanPreviousTrack";
 U"E" : U"PageUp";
 U"R" : CONS"ScanNextTrack";
-U"T" : ledControl( 5, 0, 0 ); # Turn off the LED's
-U"[" : ledControl( 4, 5, 0 ); # Increase LED brightness
+U"T" : ledControl( 5, 0 ); # Turn off the LED's
+U"[" : ledControl( 4, 5 ); # Increase LED brightness
 
 U"U" : CONS"ScanPreviousTrack";
 U"I" : U"Up";
@@ -41,7 +41,7 @@ U"A" : U"Pause";
 U"S" : U"Home";
 U"D" : U"PageDown";
 U"F" : U"End";
-U"`" : ledControl( 3, 5, 0 ); # Decrease LED brightness
+U"`" : ledControl( 3, 5 ); # Decrease LED brightness
 
 U"J" : U"Left";
 U"K" : U"Down";

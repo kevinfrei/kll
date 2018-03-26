@@ -11,93 +11,93 @@ Version = "0.1";
 # A few are different to make Mac & Windows behave the same way
 
 # Top Row
-U"Escape" : U"Cmd" + U"Escape";
-U"1" : U"Cmd" + U"1";
-U"2" : U"Cmd" + U"2";
-U"3" : U"Cmd" + U"3";
-U"4" : U"Cmd" + U"4";
-U"5" : U"Cmd" + U"5";
-U"Lock2" :  U"Cmd" + U"M"; # Minimize
+U"Escape" : U"Gui" + U"Escape";
+U"1" : U"Gui" + U"1";
+U"2" : U"Gui" + U"2";
+U"3" : U"Gui" + U"3";
+U"4" : U"Gui" + U"4";
+U"5" : U"Gui" + U"5";
+U"Lock2" :  U"Gui" + U"M"; # Minimize
 
-U"Lock6" :  U"Shift" + U"Ctrl" + U"Option" + U"Up"; # Maximize
-U"6" : U"Cmd" + U"6";
-U"7" : U"Cmd" + U"7";
-U"8" : U"Cmd" + U"8";
-U"9" : U"Cmd" + U"9";
-U"0" : U"Cmd" + U"0";
-U"-" : U"Cmd" + U"-";
+U"Lock6" :  U"Shift" + U"Ctrl" + U"Alt" + U"Up"; # Maximize
+U"6" : U"Gui" + U"6";
+U"7" : U"Gui" + U"7";
+U"8" : U"Gui" + U"8";
+U"9" : U"Gui" + U"9";
+U"0" : U"Gui" + U"0";
+U"-" : U"Gui" + U"-";
 
 # Second Row
-U"Tab" : U"Cmd" + U"Tab"; # If I wanted, I could map this to something else, since alt/cmd+tab work
-U"Q" : U"Cmd" + U"Q"; # Quit
-U"W" : U"Cmd" + U"W"; # Close
-U"E" : U"Cmd" + U"E";
-U"R" : U"Cmd" + U"R";
-U"T" : U"Cmd" + U"T";
-U"Lock5" : U"Shift" + U"Ctrl" + U"Option" + U"Left"; # Dock Left
+U"Tab" : U"Gui" + U"Tab"; # If I wanted, I could map this to something else, since alt/cmd+tab work
+U"Q" : U"Gui" + U"Q"; # Quit
+U"W" : U"Gui" + U"W"; # Close
+U"E" : U"Gui" + U"E";
+U"R" : U"Gui" + U"R";
+U"T" : U"Gui" + U"T";
+U"Lock5" : U"Shift" + U"Ctrl" + U"Alt" + U"Left"; # Dock Left
 
-U"RGui" : U"Shift" + U"Ctrl" + U"Option" + U"Right"; # Dock Right
-U"Y" : U"Cmd" + U"Y"; # Redo
-U"U" : U"Cmd" + U"U"; # Underline
-U"I" : U"Cmd" + U"I"; # Italic
-U"O" : U"Cmd" + U"O"; # Open
-U"P" : U"Cmd" + U"P"; # Print
-U"\" : U"Cmd" + U"\";
+U"RGui" : U"Shift" + U"Ctrl" + U"Alt" + U"Right"; # Dock Right
+U"Y" : U"Gui" + U"Y"; # Redo
+U"U" : U"Gui" + U"U"; # Underline
+U"I" : U"Gui" + U"I"; # Italic
+U"O" : U"Gui" + U"O"; # Open
+U"P" : U"Gui" + U"P"; # Print
+U"\" : U"Gui" + U"\";
 
 # Third Row
-U"A" : U"Cmd" + U"A"; # Select All
-U"S" : U"Cmd" + U"S"; # Save
-U"D" : U"Cmd" + U"D";
-U"F" : U"Cmd" + U"F"; # Find
-U"G" : U"Cmd" + U"G";
+U"A" : U"Gui" + U"A"; # Select All
+U"S" : U"Gui" + U"S"; # Save
+U"D" : U"Gui" + U"D";
+U"F" : U"Gui" + U"F"; # Find
+U"G" : U"Gui" + U"G";
 
-U"H" : U"Cmd" + U"H";
-U"J" : U"Cmd" + U"J";
-U"K" : U"Cmd" + U"K";
-U"L" : U"Cmd" + U"L"; # Browser Address Bar
-U";" : U"Cmd" + U";";
-U"'" : U"Cmd" + U"'";
+U"H" : U"Gui" + U"H";
+U"J" : U"Gui" + U"J";
+U"K" : U"Gui" + U"K";
+U"L" : U"Gui" + U"L"; # Browser Address Bar
+U";" : U"Gui" + U";";
+U"'" : U"Gui" + U"'";
 
 # Bottom Row
-U"Z" : U"Cmd" + U"Z"; # Undo
-U"X" : U"Cmd" + U"X"; # Cut
-U"C" : U"Cmd" + U"C"; # Copy
-U"V" : U"Cmd" + U"V"; # Paste
-U"B" : U"Cmd" + U"B"; # Bold
-U"`" : U"Cmd" + U"`";
+U"Z" : U"Gui" + U"Z"; # Undo
+U"X" : U"Gui" + U"X"; # Cut
+U"C" : U"Gui" + U"C"; # Copy
+U"V" : U"Gui" + U"V"; # Paste
+U"B" : U"Gui" + U"B"; # Bold
+U"`" : U"Gui" + U"`";
 
-U"=" : U"Cmd" + U"=";
-U"N" : U"Cmd" + U"N"; # New
-U"M" : U"Cmd" + U"M"; # Minimize?
-U"," : U"Cmd" + U",";
-U"." : U"Cmd" + U"."; # Cancel
-U"/" : U"Cmd" + U"/";
-U"RShift" : U"Cmd" + U"Space"; # Spotlight
+U"=" : U"Gui" + U"=";
+U"N" : U"Gui" + U"N"; # New
+U"M" : U"Gui" + U"M"; # Minimize?
+U"," : U"Gui" + U",";
+U"." : U"Gui" + U"."; # Cancel
+U"/" : U"Gui" + U"/";
+U"RShift" : U"Gui" + U"Space"; # Spotlight
 
 # Control/Arrows rows:
-U"LBrace" : U"Cmd" + U"LBrace"; # Browser Back
-U"RBrace" : U"Cmd" + U"RBrace"; # Browser Forward
+U"LBrace" : U"Gui" + U"LBrace"; # Browser Back
+U"RBrace" : U"Gui" + U"RBrace"; # Browser Forward
 
 # Left Thumb Cluster
-U"RAlt" : U"Shift" + U"Ctrl" + U"Option" + U"H"; # Dock top left
-U"Lock3" : U"Shift" + U"Ctrl" + U"Option" + U"N"; # Dock bottom left
-U"Backspace" : U"Opt" + U"Backspace"; # Backspace Word
-U"Delete" : U"Opt" + U"Delete"; # Delete Word
-U"PageUp" : U"Cmd" + U"PageUp";
-U"PageDown" : U"Cmd" + U"PageDown";
+U"RAlt" : U"Shift" + U"Ctrl" + U"Alt" + U"H"; # Dock top left
+U"Lock3" : U"Shift" + U"Ctrl" + U"Alt" + U"N"; # Dock bottom left
+U"Backspace" : U"Alt" + U"Backspace"; # Backspace Word
+U"Delete" : U"Alt" + U"Delete"; # Delete Word
+U"PageUp" : U"Gui" + U"PageUp";
+U"PageDown" : U"Gui" + U"PageDown";
 
 # Right Thumb Cluster
-U"RCtrl" : U"Shift" + U"Ctrl" + U"Option" + U"J"; # Dock top right
-U"Lock1" : U"Shift" + U"Ctrl" + U"Option" + U"M"; # Dock bottom right
-U"Home" : U"Cmd" + U"Home";
-U"End" : U"Cmd" + U"End";
-U"Enter" : U"Cmd" + U"Enter";
-U"Space" : U"Cmd" + U"Space";
+U"RCtrl" : U"Shift" + U"Ctrl" + U"Alt" + U"J"; # Dock top right
+U"Lock1" : U"Shift" + U"Ctrl" + U"Alt" + U"M"; # Dock bottom right
+U"Home" : U"Gui" + U"Home";
+U"End" : U"Gui" + U"End";
+U"Enter" : U"Gui" + U"Enter";
+U"Space" : U"Gui" + U"Space";
 
 # Arrows
-U"Left" : U"Opt" + U"Left"; # Previous Word
-U"Up" : U"Cmd" + U"Up";
-U"Down" : U"Cmd" + U"Down";
-U"Right" : U"Opt" + U"Right";
+U"Left" : U"Alt" + U"Left"; # Previous Word
+U"Up" : U"Gui" + U"Up";
+U"Down" : U"Gui" + U"Down";
+U"Right" : U"Alt" + U"Right";
 
 # End
